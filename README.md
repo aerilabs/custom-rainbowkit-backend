@@ -16,7 +16,7 @@ Together, they ensure your code is consistent, readable, and free of common erro
 - Customizable SIWE backend for Ethereum authentication
 - Easy integration with RainbowKit and React
 - Supports session management and secure wallet login
-- TypeScript-ready and extendable for more complex use cases
+- JavaScript-ready and extendable for more complex use cases. See this (repository)[] that implements TypeScript
 - ESLint for catching code errors and enforcing best practices
 - Prettier for consistent code formatting
 
