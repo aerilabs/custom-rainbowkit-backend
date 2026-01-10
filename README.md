@@ -1,7 +1,7 @@
 # Custom RainbowKit Backend
 
 A **custom Sign-In with Ethereum (SIWE) backend** setup for use with RainbowKit and a React frontend.  
-This configuration allows you to integrate Ethereum-based authentication into your applications with a flexible backend, while leveraging RainbowKit on the frontend.
+This configuration allows you to integrate Ethereum-based authentication into your applications with a flexible backend, while leveraging RainbowKit on the [frontend](https://github.com/aerilabs/Custom-RainbowKit-Frontend.git/).
 
 ```PNPM``` is used as the package manager of this repository.  
 
@@ -55,3 +55,10 @@ pnpm lint:fix
 # Format code with Prettier
 pnpm format
 ```
+
+## Enviroment Variables
+- `PORT`: The port on which the backend server will run (default: 5000)
+- `JWT_SECRET`: A secret key for signing JWT tokens (required)
+- `NODE_ENV`: The environment mode (development or production, default: development)
+
+- You can create an `.env.development.local`file for development-specific variables and an `env.production.local` file for production-specific variables. Ensure you set `NODE_ENV` accordingly when running the server.

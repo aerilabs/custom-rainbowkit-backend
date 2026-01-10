@@ -2,9 +2,16 @@ import express from "express";
 import { PORT } from "./config/env.js";
 import siweRouter from "./routes/siwe.js";
 import session from "express-session"
+import cors from "cors";
+import cookieParser from "cookie-parser";
 
 const app = express();
+app.use(cors({
+  origin: "http://localhost:3000", // your frontend URL
+  credentials: true,
+}))
 app.use(express.json()); // parse JSON request bodies
+app.use(cookieParser());
 
 // Session middleware for storing nonce
 app.use(
