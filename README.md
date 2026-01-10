@@ -1,7 +1,8 @@
 # Custom RainbowKit Backend
+#### _No LOC in this project was AI generated!_
 
 A **custom Sign-In with Ethereum (SIWE) backend** setup for use with RainbowKit and a React frontend.  
-This configuration allows you to integrate Ethereum-based authentication into your applications with a flexible backend, while leveraging RainbowKit on the [frontend](https://github.com/aerilabs/Custom-RainbowKit-Frontend.git/).
+This configuration allows you to integrate Ethereum-based authentication into your applications with a flexible backend, while leveraging RainbowKit via Tanstack Start on the [frontend](https://github.com/aerilabs/Custom-RainbowKit-Frontend.git/).
 
 ```PNPM``` is used as the package manager of this repository.  
 
