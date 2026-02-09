@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@rainbow-me/rainbowkit':
         specifier: ^2.2.10
-        version: 2.2.10(@tanstack/react-query@5.90.20(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(viem@2.45.1)(wagmi@3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.1))
+        version: 2.2.10(@tanstack/react-query@5.90.20(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(viem@2.45.2)(wagmi@3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.2))
       '@tanstack/react-query':
         specifier: ^5.90.20
         version: 5.90.20(react@19.2.3)
@@ -24,8 +24,8 @@ importers:
         specifier: ~4.4.3
         version: 4.4.3(supports-color@5.5.0)
       dotenv:
-        specifier: ^17.2.3
-        version: 17.2.3
+        specifier: ^17.2.4
+        version: 17.2.4
       express:
         specifier: ~5.2.1
         version: 5.2.1
@@ -45,11 +45,11 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(ethers@6.16.0)
       viem:
-        specifier: ^2.45.1
-        version: 2.45.1
+        specifier: ^2.45.2
+        version: 2.45.2
       wagmi:
         specifier: ^3.4.2
-        version: 3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.1)
+        version: 3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.2)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.2
@@ -472,8 +472,8 @@ packages:
   detect-node-es@1.1.0:
     resolution: {integrity: sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==}
 
-  dotenv@17.2.3:
-    resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
+  dotenv@17.2.4:
+    resolution: {integrity: sha512-mudtfb4zRB4bVvdj0xRo+e6duH1csJRM8IukBqfTRvHotn9+LBXB8ynAidP9zHqoRC/fsllXgk4kCKlR21fIhw==}
     engines: {node: '>=12'}
 
   dunder-proto@1.0.1:
@@ -1155,8 +1155,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  viem@2.45.1:
-    resolution: {integrity: sha512-LN6Pp7vSfv50LgwhkfSbIXftAM5J89lP9x8TeDa8QM7o41IxlHrDh0F9X+FfnCWtsz11pEVV5sn+yBUoOHNqYA==}
+  viem@2.45.2:
+    resolution: {integrity: sha512-GXPMmj0ukqFNL87sgpsZBy4CjGvsFQk42/EUdsn8dv3ZWtL4ukDXNCM0nME2hU0IcuS29CuUbrwbZN6iWxAipw==}
     peerDependencies:
       typescript: '>=5.0.4'
     peerDependenciesMeta:
@@ -1313,7 +1313,7 @@ snapshots:
 
   '@noble/hashes@1.8.0': {}
 
-  '@rainbow-me/rainbowkit@2.2.10(@tanstack/react-query@5.90.20(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(viem@2.45.1)(wagmi@3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.1))':
+  '@rainbow-me/rainbowkit@2.2.10(@tanstack/react-query@5.90.20(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(viem@2.45.2)(wagmi@3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.2))':
     dependencies:
       '@tanstack/react-query': 5.90.20(react@19.2.3)
       '@vanilla-extract/css': 1.17.3
@@ -1325,8 +1325,8 @@ snapshots:
       react-dom: 19.2.3(react@19.2.3)
       react-remove-scroll: 2.6.2(react@19.2.3)
       ua-parser-js: 1.0.41
-      viem: 2.45.1
-      wagmi: 3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.1)
+      viem: 2.45.2
+      wagmi: 3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.2)
     transitivePeerDependencies:
       - '@types/react'
       - babel-plugin-macros
@@ -1405,16 +1405,16 @@ snapshots:
     dependencies:
       '@vanilla-extract/css': 1.17.3
 
-  '@wagmi/connectors@7.1.6(@wagmi/core@3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.1))(viem@2.45.1)':
+  '@wagmi/connectors@7.1.6(@wagmi/core@3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.2))(viem@2.45.2)':
     dependencies:
-      '@wagmi/core': 3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.1)
-      viem: 2.45.1
+      '@wagmi/core': 3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.2)
+      viem: 2.45.2
 
-  '@wagmi/core@3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.1)':
+  '@wagmi/core@3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.2)':
     dependencies:
       eventemitter3: 5.0.1
       mipd: 0.0.7
-      viem: 2.45.1
+      viem: 2.45.2
       zustand: 5.0.0(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))
     optionalDependencies:
       '@tanstack/query-core': 5.90.20
@@ -1596,7 +1596,7 @@ snapshots:
 
   detect-node-es@1.1.0: {}
 
-  dotenv@17.2.3: {}
+  dotenv@17.2.4: {}
 
   dunder-proto@1.0.1:
     dependencies:
@@ -2296,7 +2296,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  viem@2.45.1:
+  viem@2.45.2:
     dependencies:
       '@noble/curves': 1.9.1
       '@noble/hashes': 1.8.0
@@ -2311,14 +2311,14 @@ snapshots:
       - utf-8-validate
       - zod
 
-  wagmi@3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.1):
+  wagmi@3.4.2(@tanstack/query-core@5.90.20)(@tanstack/react-query@5.90.20(react@19.2.3))(ox@0.11.3)(react@19.2.3)(viem@2.45.2):
     dependencies:
       '@tanstack/react-query': 5.90.20(react@19.2.3)
-      '@wagmi/connectors': 7.1.6(@wagmi/core@3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.1))(viem@2.45.1)
-      '@wagmi/core': 3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.1)
+      '@wagmi/connectors': 7.1.6(@wagmi/core@3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.2))(viem@2.45.2)
+      '@wagmi/core': 3.3.2(@tanstack/query-core@5.90.20)(ox@0.11.3)(react@19.2.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.2)
       react: 19.2.3
       use-sync-external-store: 1.4.0(react@19.2.3)
-      viem: 2.45.1
+      viem: 2.45.2
     transitivePeerDependencies:
       - '@base-org/account'
       - '@coinbase/wallet-sdk'
