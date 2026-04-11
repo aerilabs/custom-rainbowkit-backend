@@ -27,7 +27,7 @@
     "wagmi": "^3.4.4"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
+    "@eslint/js": "^9.39.3",
     "eslint": "^10.0.1",
     "globals": "^17.3.0",
     "nodemon": "^3.1.11"
