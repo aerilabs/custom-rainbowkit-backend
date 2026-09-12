@@ -1,4 +1,6 @@
 # Custom RainbowKit Backend
+## > This Repository is now archived!
+
 #### _No LOC in this project was AI generated!_
 
 A **custom Sign-In with Ethereum (SIWE) backend** setup for use with RainbowKit and a React frontend.  
